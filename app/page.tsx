@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-
+import SearchBar from '@/components/SearchBar';
 function Home() {
   return (
     <>
@@ -22,6 +22,12 @@ function Home() {
               Track Prices, Set Alerts, Never Miss a Deal with
               <span className="text-primary"> SaveOnShop</span>
             </h1>
+
+            <p className="mt-6">
+              Empowering Savvy Shoppers with Price Tracking and Stock
+              Notifications - Your Ultimate Savings Companion.
+            </p>
+            <SearchBar/>
           </div>
         </div>
       </section>
